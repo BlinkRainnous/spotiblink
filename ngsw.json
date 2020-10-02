@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1601661518517,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.3ab94613c93f77d0df4e.js",
+        "/manifest.webmanifest",
+        "/polyfills.a4021de53358bb0fec14.js",
+        "/runtime.e227d1a0e31cbccbf8ec.js",
+        "/styles.27859d66b3bb2f4684d1.css"
+      ],
+      "patterns": [
+        "https:\\/\\/stackpath\\.bootstrapcdn\\.com\\/bootstrap\\/.*",
+        "https:\\/\\/use\\.fontawesome\\.com\\/releases\\/v5\\.0\\.13\\/css\\/all\\.css",
+        "https:\\/\\/code\\.jquery\\.com\\/jquery-3\\.5\\.1\\.slim\\.min\\.js",
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/popper\\.js@1\\.16\\.1\\/dist\\/umd\\/popper\\.min\\.js"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/kpop.png",
+        "/assets/img/256x256bb.jpg",
+        "/assets/img/bp1.jpg",
+        "/assets/img/bp2.jpg",
+        "/assets/img/bp3.jpg",
+        "/assets/img/bp4.jpg",
+        "/assets/img/bp5.jpg",
+        "/assets/img/bplogo.png",
+        "/assets/img/ligthstick.png",
+        "/assets/img/loading.gif",
+        "/assets/img/spotify.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/kpop.png": "03b4baf1784978b59f3344f4c5d7004e4a9ef7d3",
+    "/assets/img/256x256bb.jpg": "ba1a1e08a839940d6cd4c326cdc31e2a8b22580e",
+    "/assets/img/bp1.jpg": "b65c7f5d828dcbbf055b5043d85074e43364b077",
+    "/assets/img/bp2.jpg": "75acaea355cd20dc1057add722fa8e3e66bdacf5",
+    "/assets/img/bp3.jpg": "c6bba5ddffd30865db94d2089b561c541a80fc5f",
+    "/assets/img/bp4.jpg": "010ee4e3779b9a9504d62b9348c9394d12b7d8e7",
+    "/assets/img/bp5.jpg": "183b43e12c8a34364110aa76b5a690aa068548e6",
+    "/assets/img/bplogo.png": "81a61beafa4a6fc17d52b32fa24326f7133151c7",
+    "/assets/img/ligthstick.png": "767170850e68f73eae81e84300ce524daac8e12e",
+    "/assets/img/loading.gif": "595c8f4025c36402fd4968062b3f73d2ba1843d6",
+    "/assets/img/spotify.png": "c6585b56b5d655efaaa1af2cf75950d2c9ca1363",
+    "/favicon.ico": "6f272d4aa7bfe0fcc2f33dac9fd388c67a4a6e9a",
+    "/index.html": "7804838233205d9c38ff791a15a84e8a05acaa46",
+    "/main.3ab94613c93f77d0df4e.js": "5542b8568cca12ee571d24d54b200e04a70578e8",
+    "/manifest.webmanifest": "b4b7006a2cac7efbf95e2cf246d86f32816c91d5",
+    "/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
+    "/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.27859d66b3bb2f4684d1.css": "71e995d25f0f3f1886eac1717446851082d6e68b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

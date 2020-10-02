@@ -1,0 +1,17 @@
+{
+  "name": "spotiBlink",
+  "short_name": "spotiBlink",
+  "theme_color": "#ffc0cb",
+  "background_color": "#000",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./index.html",
+  "icons": [
+    {
+      "src": "assets/icons/kpop.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
